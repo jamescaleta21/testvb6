@@ -19,6 +19,14 @@ Begin VB.Form Form1
    ScaleWidth      =   4560
    ShowInTaskbar   =   0   'False
    StartUpPosition =   3  'Windows Default
+   Begin VB.CommandButton Command1 
+      Caption         =   "Command1"
+      Height          =   360
+      Left            =   2040
+      TabIndex        =   1
+      Top             =   720
+      Width           =   990
+   End
    Begin VB.CommandButton cmdCommand1 
       Caption         =   "Command1"
       Height          =   360
@@ -35,4 +43,8 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Private Sub cmdCommand1_Click()
 MsgBox "hola mundo github"
+End Sub
+
+Private Sub Command1_Click()
+MsgBox "boton 2"
 End Sub
