@@ -22,9 +22,9 @@ Begin VB.Form Form1
    Begin VB.CommandButton cdmtirado 
       Caption         =   "Guillermo"
       Height          =   255
-      Left            =   2640
+      Left            =   3360
       TabIndex        =   1
-      Top             =   840
+      Top             =   2520
       Width           =   975
    End
    Begin VB.CommandButton cmdCommand1 
