@@ -19,13 +19,13 @@ Begin VB.Form Form1
    ScaleWidth      =   4560
    ShowInTaskbar   =   0   'False
    StartUpPosition =   3  'Windows Default
-   Begin VB.CommandButton Command1 
-      Caption         =   "Command1"
-      Height          =   360
-      Left            =   1560
+   Begin VB.CommandButton cdmtirado 
+      Caption         =   "Guillermo"
+      Height          =   255
+      Left            =   3360
       TabIndex        =   1
-      Top             =   480
-      Width           =   990
+      Top             =   2520
+      Width           =   975
    End
    Begin VB.CommandButton cmdCommand1 
       Caption         =   "Command1"
@@ -41,6 +41,10 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+Private Sub cdmtirado_Click()
+MsgBox "ppelusa"
+End Sub
+
 Private Sub cmdCommand1_Click()
 MsgBox "hola mundo github"
 End Sub
