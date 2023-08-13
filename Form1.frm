@@ -22,9 +22,9 @@ Begin VB.Form Form1
    Begin VB.CommandButton Command1 
       Caption         =   "Command1"
       Height          =   360
-      Left            =   2040
+      Left            =   1560
       TabIndex        =   1
-      Top             =   720
+      Top             =   480
       Width           =   990
    End
    Begin VB.CommandButton cmdCommand1 
